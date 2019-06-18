@@ -5,33 +5,45 @@
 .btn {
   width: 70px; 
   height: 70px;
+}
+
+.btn {
   background-color: mediumSeaGreen;
   color: black;
   border-block-color:mediumSeaGreen;
   border-color: mediumSeaGreen;
   box-shadow: 1px 1px 1px;
-}
-
-.btn:hover {
-  background-color:#FE9F6D;
-  border-block-color: #FE9F6D;
-  border-color: #FE9F6D;
   
 }
 
-.btn:active{
-  background-color: #9D3802;
-  border-block-color: #9D3802;
-  border-color: #9D3802;
- 
-}
+
 
 .operator {
   background-color: #b3673c;
   color: black;
+  
+  
   border-block-color:#b3673c;
   border-color: #b3673c;
   box-shadow: 1px 1px 1px;
+  
+
+
+
+}
+
+#equals {
+  background-color:#529972;
+  
+  color: black;
+  
+  
+  border-block-color:#529972;
+  border-color: #529972;
+  box-shadow: 1px 1px 1px;
+  
+
+
 }
 
 p {
@@ -42,17 +54,13 @@ p {
   color: black;
 }
 
-#equals {
-  background-color:#529972;
-  color: black;
-  border-block-color:#529972;
-  border-color: #529972;
-  box-shadow: 1px 1px 1px;
-}
+
 
 #clear {
   background-color: #b34a3c;;
   color: black;
+  
+  
   border-block-color:#b34a3c;
   border-color: #b34a3c;
   box-shadow: 1px 1px 1px;
@@ -60,18 +68,27 @@ p {
 }
 
 #clear:hover, #equals:hover {
+
   background-color:#FE9F6D;
   border-block-color: #FE9F6D;
   border-color: #FE9F6D;
+
 }
 
 #clear:hover p{
   color: black;
 }
 
+.btn:hover {
+  background-color:#FE9F6D;
+  border-block-color: #FE9F6D;
+  border-color: #FE9F6D;
+  
+}
 
-#clear:active, #equals:active {
+.btn:active, #clear:active, #equals:active{
   background-color: #9D3802;
   border-block-color: #9D3802;
   border-color: #9D3802;
+ 
 }
