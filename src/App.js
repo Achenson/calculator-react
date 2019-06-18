@@ -9,7 +9,6 @@ class App extends Component {
         display: '0',
         //if false(after pressing "=") -> display is cleared before entering numbers
         trueIfExpression: true
-
       }
      
       this.handleDigits = this.handleDigits.bind(this);
